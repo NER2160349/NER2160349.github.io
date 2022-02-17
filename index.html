@@ -1,5 +1,15 @@
 <html>
+<script>
+  functin onClick() {
+    alert("You clicked the button!!!");
+  }
+</script>
   <body>
+  <div>
+    <a href="/index.html">Home</a>
+    <a href="/about.html">About</a>
+  <div>
+   <button onclick="onClick()">Click me!</button>
    <hi>Hello, World!</hi>
    <p>This is my cool website!</p>
    <a href="/about.html">I'm a link</a>
@@ -9,10 +19,21 @@
   body {
     background-color: black;
     color: white;
-  }
-p {
+   }
+  p {
   border: pink dotted;
-}
+  }
+  div {
+  overflow: hidden;
+  background-color: white;
+  }
+  div a {
+    float: left;
+    color: black;
+    padding: 10;
+  }
+  div a:hover{
+    background-color: pink;
+
   </style>
 </html>
-
